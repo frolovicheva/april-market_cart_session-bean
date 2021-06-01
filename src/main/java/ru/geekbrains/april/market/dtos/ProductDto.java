@@ -8,6 +8,7 @@ import ru.geekbrains.april.market.models.Product;
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.Size;
+import java.io.Serializable;
 import java.math.BigDecimal;
 
 @Data
