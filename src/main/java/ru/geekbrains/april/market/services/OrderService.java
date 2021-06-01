@@ -10,7 +10,7 @@ import ru.geekbrains.april.market.error_handling.ResourceNotFoundException;
 import ru.geekbrains.april.market.models.*;
 import ru.geekbrains.april.market.repositories.OrderRepository;
 import ru.geekbrains.april.market.repositories.ProductRepository;
-import ru.geekbrains.april.market.utils.Cart;
+import ru.geekbrains.april.market.utils.SessionCart;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,7 +20,7 @@ import java.util.Optional;
 @RequiredArgsConstructor
 public class OrderService {
     private final OrderRepository orderRepository;
-    private final Cart cart;
+    private final SessionCart cart;
 
     public List<Order> findAllByUser(User user) {
         return orderRepository.findAllByUser(user);

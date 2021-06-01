@@ -5,6 +5,7 @@ import lombok.NoArgsConstructor;
 import ru.geekbrains.april.market.models.Order;
 import ru.geekbrains.april.market.models.OrderItem;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.stream.Collectors;
 

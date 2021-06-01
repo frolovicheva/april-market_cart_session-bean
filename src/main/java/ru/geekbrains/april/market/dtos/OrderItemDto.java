@@ -8,6 +8,7 @@ import ru.geekbrains.april.market.models.OrderItem;
 import ru.geekbrains.april.market.models.Product;
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
